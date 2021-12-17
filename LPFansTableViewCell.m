@@ -719,6 +719,7 @@
 
 - (void)matchButtonShowOrHidden:(BOOL)succ {
     _cellView.matchBtn.hidden = succ;
+    return;
 }
 
 @end
