@@ -88,6 +88,7 @@ static NSString *const kNormalCellIdentifier = @"NormalCell";
     frame.size.height -= bar.frame.size.height;
     self.tableView.frame = frame;
     [self.view addSubview:self.tableView];
+    NSLog(@"adsidofsdihfksdflisdj");
 }
 
 
