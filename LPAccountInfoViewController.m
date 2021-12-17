@@ -126,7 +126,7 @@ static NSString *const kNormalCellIdentifier = @"NormalCell";
             [self.tableView reloadData];
         }
     } onFailure:^(NSURLSessionDataTask *task, NSError *error) {
-        
+        NSLog(@"fhdksfsdjfhsdk54546");
     }];
 }
 
