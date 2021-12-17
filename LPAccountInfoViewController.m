@@ -57,6 +57,7 @@ static NSString *const kNormalCellIdentifier = @"NormalCell";
 - (void)dealloc
 {
     NSLog(@"LPAccountInfoViewController#dealloc...");
+    NSLog(@"dasdasdasdasd");
 }
 
 - (void)viewDidLoad
