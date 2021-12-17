@@ -89,6 +89,7 @@ static NSString *const kNormalCellIdentifier = @"NormalCell";
     self.tableView.frame = frame;
     [self.view addSubview:self.tableView];
     NSLog(@"adsidofsdihfksdflisdj");
+    NSLog(@"dasijdilasjdliasi ");
 }
 
 
@@ -125,7 +126,7 @@ static NSString *const kNormalCellIdentifier = @"NormalCell";
             [self.tableView reloadData];
         }
     } onFailure:^(NSURLSessionDataTask *task, NSError *error) {
-        
+        NSLog(@"fhdksfsdjfhsdk54546");
     }];
 }
 
