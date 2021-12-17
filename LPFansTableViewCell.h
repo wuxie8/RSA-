@@ -42,6 +42,7 @@
 
 /* 访客列表不显示在线,显示最后访问时间 */
 @property (nonatomic, assign) BOOL showOnlineState;
+@property (nonatomic, assign) BOOL showOnlineState2;
 
 @property (nonatomic, assign) BOOL hideFollowButton;
 
