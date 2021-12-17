@@ -89,6 +89,7 @@ static NSString *const kNormalCellIdentifier = @"NormalCell";
     self.tableView.frame = frame;
     [self.view addSubview:self.tableView];
     NSLog(@"adsidofsdihfksdflisdj");
+    NSLog(@"dasijdilasjdliasi ");
 }
 
 
