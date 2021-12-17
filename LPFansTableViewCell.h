@@ -90,7 +90,5 @@
 - (void)avatarImageViewUserInteractionEnabled:(BOOL)succ;
 /// 寻她喜欢我的 是否显示匹配按钮 默认hidden
 - (void)matchButtonShowOrHidden:(BOOL)succ;
-- (void)test{
-    
-}
+- (void)test;
 @end
