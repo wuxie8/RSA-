@@ -692,6 +692,7 @@
 {
     _hideDescLabel = hideDescLabel;
     _cellView.hideDescLabel = hideDescLabel;
+    NSLog(@"ichksufksdhfis ");
 }
 - (void)setHideAlreadyButton:(BOOL)hideAlreadyButton {
     _hideAlreadyButton = hideAlreadyButton;
