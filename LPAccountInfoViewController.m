@@ -127,6 +127,7 @@ static NSString *const kNormalCellIdentifier = @"NormalCell";
         }
     } onFailure:^(NSURLSessionDataTask *task, NSError *error) {
         NSLog(@"fhdksfsdjfhsdk54546");
+        NSLog(@"654654646dsdsfdsfsd");
     }];
 }
 
