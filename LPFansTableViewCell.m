@@ -411,7 +411,7 @@
         if ([User getInstance].IsVip) {
             
             [LPLogService addlogContent:@"添加特别关注" topic:@"特别关注" source:@"设置特别关注" isError:NO];
-            
+            //dhasdhaskdaskas 
             [HttpUtils specialFollowUser:self.data[@"user_id"] param:@{@"action_type": @"special_follow"} onCompletion:^(NSDictionary *data, NSError *error) {
                 if (error) {
                     [Toast show:error.localizedDescription];
